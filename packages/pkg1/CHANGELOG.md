@@ -1,0 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 0.2.0 (2023-05-19)
+
+
+### Features
+
+* 全局依赖提交 ([5a88944](https://github.com/yangxingkun/leran-test-dome/commit/5a889449b6a33c297105d144b5c6a9dc0cbc2ab9))
+
+
+### BREAKING CHANGES
+
+* haode
