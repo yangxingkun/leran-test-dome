@@ -17,11 +17,10 @@
     "registry": "https://registry.npm.taobao.org/"
   },
   "scripts": {
-    "test": "node ./__tests__/pkg2.test.js"
+    "test": "node ./__tests__/pkg2.test.js",
+    "serve": "node ./lib/pkg2.js"
   },
   "dependencies": {
-    "fs-extra": "^11.1.1",
-    "ora": "^6.3.1",
-    "pkg1": "^0.0.0"
+    "ora": "^6.3.1"
   }
 }
