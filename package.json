@@ -6,21 +6,28 @@
   ],
   "scripts": {
     "clear-all": "rimraf node_modules && lerna clean -y",
-    "commit":"git-cz"
-    
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "devDependencies": {
-    "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0",
-    "lerna": "^6.6.2",
-    "rollup": "^3.22.0"
-  },
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3",
+    "lerna": "^6.6.2",
+    "rollup": "^3.22.0"
   }
 }
