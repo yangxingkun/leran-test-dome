@@ -20,6 +20,9 @@
       "path": "cz-conventional-changelog"
     }
   },
+  "publishConfig": {
+    "access": "public"
+   },
   "dependencies": {
     "lodash": "^4.17.21"
   },
